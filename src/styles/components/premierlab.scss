@@ -1,0 +1,44 @@
+.premier-labo {
+    background-color: var(--color-black);
+    color: var(--color-bg-primary);
+
+    h2 {
+        padding: 80px 0 100px 0;
+    }
+
+    .card_media {
+        display: block;
+        width: 494px;
+        height: 1;
+    }
+    .cards {
+        font-family: var(--font-primary);
+
+        .card {
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+            padding-bottom: 50px;
+
+            @media (width <=800px) {
+                grid-template-columns: 1fr;
+            }
+            .card_content {
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    margin: 0;
+                    font-size: var(--font-size-content);
+                }
+                .info {
+                    padding: 16px 0 24px 0;
+                }
+
+                .type {
+                    font-weight: 100;
+                }
+            }
+        }
+    }
+}
