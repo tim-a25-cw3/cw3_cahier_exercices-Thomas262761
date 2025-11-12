@@ -1,10 +1,14 @@
 .header {
     padding: 25px 0;
     text-align: center;
-    color: var(--color-black);
     background: rgba(0, 0, 0, 0.7);
-
+    z-index: 2;
     a {
         color: var(--color-white);
     }
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }

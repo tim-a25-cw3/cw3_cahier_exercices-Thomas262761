@@ -1,18 +1,31 @@
 .hero {
-    padding: 80px;
+    padding: 80px 0;
+    position: relative;
+    height: 80vh;
     .wrapper {
-        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    @media (width<= $breakpoint-md) {
+        height: 60vh;
+        h1 {
+            font-size: var(--font-size-h1);
+        }
     }
 }
 
-.hero_content {
+.hero_media {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: flex-end;
-    h1 {
+    z-index: -1;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
