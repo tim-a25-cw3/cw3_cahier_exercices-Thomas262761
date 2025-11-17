@@ -17,8 +17,7 @@
 // Permet de réinitialiser les CSS et de changer le modèle de boîte en box-sizing: border-box
 @import 'generic/normalize';
 @import 'generic/reset';
-
-// ELEMENTS
+@import '../../node_modules/swiper/swiper-bundle'; // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
 @import 'elements/body';
 @import 'elements/typography';
@@ -34,3 +33,5 @@
 @import 'components/premierlab';
 @import 'components/buttons';
 @import 'components/js-labo';
+@import 'components/footer';
+@import 'components/swiper';

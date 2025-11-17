@@ -1,0 +1,25 @@
+.footer {
+    padding: 40px 110px;
+    background-color: var(--color-black);
+    h1 {
+        color: var(--color-bg-primary);
+
+        font-size: var(--font-size-footer);
+    }
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-bg-primary);
+}
+.icones {
+    color: var(--color-icone);
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    margin-top: 30px;
+}

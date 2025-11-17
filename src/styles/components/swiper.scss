@@ -1,0 +1,22 @@
+.card-js {
+    position: relative;
+}
+
+.swiper-pagination-bullet {
+    color: var(--color-bg-primary);
+    display: flex;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    rotate: -45;
+    background: white;
+    opacity: 0.4;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.swiper-slide {
+}

@@ -8,5 +8,10 @@
 
     a {
         color: var(--color-black);
+        font-weight: bold;
+        text-decoration: none;
     }
+}
+.button-black {
+    background-color: var(--color-bg-primary);
 }

@@ -10,9 +10,6 @@
 
     @media (width<= $breakpoint-md) {
         height: 60vh;
-        h1 {
-            font-size: var(--font-size-h1);
-        }
     }
 }
 
