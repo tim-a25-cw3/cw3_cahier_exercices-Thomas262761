@@ -14,10 +14,12 @@ class Main {
   initPagination() {
     const target = document.querySelector('.js-pagination');
     const swiper = new Swiper(target, {
-      loop: true,
       slidesPerView: 1,
+      loop: true,
       pagination: {
-        el: '.swiper-naviguation',
+        el: '.swiper-pagination',
+
+        type: 'bullets',
       },
     });
   }
